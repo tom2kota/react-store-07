@@ -5,6 +5,19 @@ E-commerce project DEMO:
 
 ---------------
 
+## [Use the Cloud Firestore REST API](https://firebase.google.com/docs/firestore/use-rest-api#making_rest_calls)
+
+``` 
+ https://firestore.googleapis.com/v1/projects/YOUR_PROJECT_ID/databases/(default)/documents/cities/LA
+```
+
+- [Redux Thunk](https://www.npmjs.com/package/redux-thunk)
+``` 
+npm i redux-thunk
+```
+
+---------------
+
 ## Import Shop data from Firebase
 
 ``` 
