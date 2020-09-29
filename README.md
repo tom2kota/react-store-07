@@ -5,6 +5,12 @@ E-commerce project DEMO:
 
 ---------------
 
+## Container Pattern
+
+Containers don't render anything, they just pass props down to components
+
+---------------
+
 ## [Use the Cloud Firestore REST API](https://firebase.google.com/docs/firestore/use-rest-api#making_rest_calls)
 
 ``` 
