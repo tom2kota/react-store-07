@@ -18,16 +18,17 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
 
     const userRef = firestore.doc(`users/${userAuth.uid}`)
     const snapShot = await userRef.get()
-    const collectionRef = firestore.collection('users')
-    const collectionSnapShot = await collectionRef.get()
 
-    console.log('...........................')
-    console.log('userRef: ', userRef)
-    console.log('snapShot: ', snapShot)
-    console.log('collectionRef: ', collectionRef)
-    console.log('collectionSnapShot: ', collectionSnapShot)
-    console.log({collection: collectionSnapShot.docs.map(doc => doc.data())})
-    console.log('...........................')
+    // const collectionRef = firestore.collection('users')
+    // const collectionSnapShot = await collectionRef.get()
+    //
+    // console.log('...........................')
+    // console.log('userRef: ', userRef)
+    // console.log('snapShot: ', snapShot)
+    // console.log('collectionRef: ', collectionRef)
+    // console.log('collectionSnapShot: ', collectionSnapShot)
+    // console.log({collection: collectionSnapShot.docs.map(doc => doc.data())})
+    // console.log('...........................')
 
     if (!snapShot.exists) {
         const {displayName, email} = userAuth;
@@ -58,9 +59,9 @@ export const addCollectionAndDocuments = async (collectionKey, objectsToAdd) => 
         batch.set(newDocRef, obj)
     })
 
-    console.log('...........................')
-    console.log('collectionRef: ', collectionRef)
-    console.log('...........................')
+    // console.log('...........................')
+    // console.log('collectionRef: ', collectionRef)
+    // console.log('...........................')
 
     return await batch.commit()
 }
