@@ -19,7 +19,7 @@ class ShopPage extends Component {
         return (
             <div className='shop-page'>
                 <Route exact path={`${match.path}`} component={collectionsOverviewContainer}/>
-                <Route path={`${match.path}/:collectionId`} component={collectionPageContainer}/>}
+                <Route path={`${match.path}/:collectionId`} component={collectionPageContainer}/>
             </div>
         )
     }
