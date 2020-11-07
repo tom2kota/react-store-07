@@ -1,9 +1,23 @@
 # React Store App (react: 16.13.1)
 
 E-commerce project DEMO:
-- [vercel.app link](https://react-store-07.vercel.app)
+- [Client](https://react-store-07.vercel.app)
+- [Server](https://react-store-express-server.herokuapp.com) or [Clone repo & run server on localhost](https://github.com/tom2kota/react-store-server)
+- [Stripe Dashboard](https://dashboard.stripe.com/test/dashboard)
+- [Firebase](https://console.firebase.google.com)
+
+
+``` 
+    npm run start
+```
+
+Go to [localhost:3000](http://localhost:3000)
+
+
+![img](./public/payment.png)
 
 ---------------
+
 
 ## Container Pattern
 
