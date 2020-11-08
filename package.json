@@ -1,6 +1,6 @@
 {
   "name": "react-store-07",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "proxy": "https://react-store-express-server.herokuapp.com",
   "dependencies": {
@@ -12,17 +12,17 @@
     "firebase": "^7.21.0",
     "lodash.memoize": "^4.1.2",
     "node-sass": "^4.14.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-redux": "^7.2.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-redux": "^7.2.2",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3",
+    "react-scripts": "3.4.4",
     "react-stripe-checkout": "^2.6.3",
     "redux": "^4.0.5",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
     "reselect": "^4.0.0",
-    "styled-components": "^5.1.1"
+    "styled-components": "^5.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
