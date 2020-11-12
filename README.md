@@ -13,11 +13,17 @@ E-commerce project DEMO:
 
 Go to [localhost:3000](http://localhost:3000)
 
+---------------
 
+#### Stripe payment workflow scheme
 ![img](./public/payment.png)
 
 ---------------
 
+#### Redux workflow scheme
+![img](./public/redux.png)
+
+---------------
 
 ## Container Pattern
 
